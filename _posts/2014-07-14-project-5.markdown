@@ -10,6 +10,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+description: Ladies Waxing, Eyebrows Upper lip, Chin, Under arm, 1/2 Arm, Full arm, Stomach, 1/2 Leg, Full leg, Bikini Line, Brazilian
 ---
