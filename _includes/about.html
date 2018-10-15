@@ -1,107 +1,180 @@
-
 <div class='container'>
-    <div class="row">
-        <div class='centered services-margin'>
-            <h1> Services </h1>
+  <div class="row">
+    <div class='centered services-margin'>
+      <h1 id='about' class="page_headers"> Services </h1>
+    </div>
+  </div>
+  <div class='row'>
+    <!-- Button trigger Nails modal -->
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top services_images" src="img/portfolio/nails.jpg" alt="Card image cap"  data-toggle="modal" data-target="#Nails">
+        <div class="card-body">
+          <h5 class="card-title">Nails</h5>
+          <p class="card-text">At NotJustNails we do all sorts of things with nails!</p>
+          <p class="card-text"><b>Click on the image to see more</b></p>
         </div>
-</div>
-
-<div class='row'>
-<!-- Button trigger Nails modal -->
-<div class="col-sm-4">
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="img/portfolio/nails.jpg" style="width: 300px;" alt="Card image cap"  data-toggle="modal" data-target="#Nails">
-          <div class="card-body">
-            <h5 class="card-title">Nails</h5>
-            <p class="card-text">At NotJustNails we do all sorts of things with nails!</p>
-            <p class="card-text">Click on the image to see more</p>
-          </div>
-</div>
-</div>
-
+      </div>
+    </div>
     
-<!-- Modal -->
-<div class="modal fade" id="Nails" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-       test1
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="col-sm-4">
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="img/portfolio/spray.jpg" style="width: 300px;" alt="Card image cap" data-toggle="modal" data-target="#SprayTan">
-          <div class="card-body">
-            <h5 class="card-title">Spray Tan</h5>
-            <p class="card-text">Are you looking for the perfect Tan? Look no further!</p>
-            <p class="card-text">Click on the image to see more</p>
+    <!-- Modal -->
+    <div class="modal fade" id="Nails" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Nails</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-</div>
-
-</div>
-<!-- Modal -->
-<div class="modal fade" id="SprayTan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        test2
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+          <div class="modal-body">
+            <img class="card-img-top  services_images_modal  centered" src="img/portfolio/nails.jpg" alt="Card image cap"  data-toggle="modal" data-target="#Nails">
+            <ul>
+              <li>
+                SNS
+              </li>
+              <li>
+                Acrylic
+              </li>
+              <li>
+                Gel
+              </li>
+              <li>
+                Shellac
+              </li>
+              <li>
+                Manicure with polish
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-<div class="col-sm-4">
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="img/portfolio/wax.jpg" style="width: 300px;" alt="Card image cap" data-toggle="modal" data-target="#Waxing">
-            <div class="card-body">
-                <h5 class="card-title">Waxing</h5>
-                <p class="card-text">Do you need a wax? At notjustnails we have loads of waxing options for men and women!</p>
-                <p class="card-text">Click on the image to see more</p>
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top services_images" src="img/portfolio/spray.jpg" alt="Card image cap" data-toggle="modal" data-target="#SprayTan">
+        <div class="overlay">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Spray Tan</h5>
+          <p class="card-text">Are you looking for the perfect Tan? Look no further!</p>
+          <p class="card-text"><b>Click on the image to see more</b></p>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="SprayTan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Spray Tan</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="card-img-top services_images_modal centered" src="img/portfolio/spray.jpg" alt="Card image cap" data-toggle="modal" data-target="#SprayTan">
+            <ul>
+              <li>
+                Colour by Moroccan Tan
+              </li>
+              <li>
+                Full and half body
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top services_images" src="img/portfolio/wax.jpg" alt="Card image cap" data-toggle="modal" data-target="#Waxing">
+        <div class="card-body">
+          <h5 class="card-title">Waxing</h5>
+          <p class="card-text">Do you need a wax? At notjustnails we have loads of waxing options for men and women!</p>
+          <p class="card-text"><b>Click on the image to see more</b></p>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="Waxing" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Waxing</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="card-img-top services_images_modal centered" src="img/portfolio/wax.jpg" alt="Card image cap" data-toggle="modal" data-target="#Waxing">
+            <p>At NotJustNails we do both women and men's waxing! See below for our different types of methods.
+            </p>
+            <div class='container'>
+              <div class='row'>
+                <div class ='col-sm-3'>
+                  <h3> WOMEN'S WAXING </h3>
+                  <ul>
+                    <li>
+                      Ladies Waxing
+                    </li>
+                    <li>
+                      Eyebrows
+                    </li>
+                    <li>
+                      Upper Lip
+                    </li>
+                    <li>
+                      Chin
+                    </li>
+                    <li>
+                      Underarm
+                    </li>
+                    <li>
+                      1/2 Arm
+                    </li>
+                    <li>
+                      Full arm
+                    </li>
+                    <li>
+                      1/2 Leg
+                    </li>
+                    <li>
+                      Full Leg
+                    </li>
+                    <li>
+                      Bikini Line
+                    </li>
+                    <li>
+                      Brazilian
+                    </li>
+                  </ul>
+                </div>
+                <div class='col-sm-4'>
+                  <h3> MEN'S WAXING </h3>
+                  <ul>
+                    <li>Eyebrows</li>
+                    <li>Chest</li>
+                    <li>Stomach</li>
+                    <li>Back</li>
+                    <li>Arms</li>
+                    <li>Legs</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-</div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="Waxing" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        test3
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-</div>
 </div>
